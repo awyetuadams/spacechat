@@ -2,7 +2,6 @@ import { IncomingMessage, ServerResponse } from "http";
 const { createServer } = require("http");
 const { parse } = require("url");
 const next = require("next");
-const path = require('path');
 
 const dev = process.env.NODE_ENV !== "production";
 const hostname = "localhost";
